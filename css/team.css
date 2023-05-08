@@ -1,0 +1,68 @@
+#team {
+  background: #202020 url(../images/team-bg.jpg) 50% 0 repeat-y fixed;
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#team p {
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 150px auto;
+}
+#team hr {
+  border-color: #ffffff !important;
+  opacity: 0.7;
+  margin: 30px auto;
+}
+#team h2,
+#team p {
+  text-align: center;
+}
+.person img {
+  height: 360px;
+  vertical-align: middle;
+}
+.information {
+  background-color: #eb5424;
+  text-align: center;
+  height: 100px;
+  width: 360px;
+  padding: 20px 12px;
+}
+#team h4 {
+  color: #202020;
+  line-height: 10px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+#team h3 {
+  font-size: 20px;
+  line-height: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .person img {
+    height: 300px;
+  }
+  .information {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .person img {
+    height: 220px;
+  }
+  .information {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .person img {
+    height: 45vw;
+  }
+  .information {
+    width: 45vw;
+  }
+  img[alt="team3"] {
+    margin-top: 50px;
+  }
+}

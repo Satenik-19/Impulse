@@ -1,0 +1,36 @@
+#intro {
+  height: 650px;
+  padding-top: 180px;
+}
+#intro h4 {
+  padding-bottom: 16px;
+  font-weight: bold !important;
+}
+h4 {
+  font-size: 24px;
+}
+#intro h2 {
+  color: #202020;
+  line-height: 60px;
+  padding-bottom: 30px;
+}
+
+hr {
+  border-color: rgba(0, 0, 0, 0.288);
+  margin: 0 auto 20px auto;
+  width: 100px !important;
+}
+p {
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+#intro p {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 20px;
+}
+@media screen and (max-width: 995px) {
+  #intro h2 {
+    font-size: 32px;
+  }
+}

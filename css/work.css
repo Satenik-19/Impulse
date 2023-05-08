@@ -1,0 +1,93 @@
+.service {
+  background-color: white;
+  padding: 60px 0;
+}
+.service h2 {
+  color: #202020;
+  line-height: 20px;
+  padding-bottom: 30px;
+  padding-top: 100px;
+  text-align: center;
+}
+.service p {
+  font-size: 16px;
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+}
+.mobile,
+.design,
+.media,
+.seo {
+  height: 260px;
+  position: relative;
+  padding: 0;
+}
+.mobile,
+.seo {
+  background-color: #303030;
+}
+.design,
+.media {
+  background-color: #eb5424;
+}
+.right_section {
+  padding: 0;
+}
+.right_section .row {
+  margin: 0;
+}
+#work h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  margin-top: 150px;
+  position: relative;
+}
+.image {
+  display: inline-block;
+  position: absolute;
+  left: calc(50% - 40px);
+  top: 60px;
+  width: 80px;
+  height: 80px;
+  transition: all 0.4s;
+}
+
+.mobile .image {
+  background: url(../svg/mobile.svg) no-repeat center;
+}
+.media .image {
+  background: url(../svg/cloud.svg) no-repeat center;
+}
+.design .image {
+  background: url(../svg/chain.svg) no-repeat center;
+}
+.seo .image {
+  background: url(../svg/earth.svg) no-repeat center;
+}
+.mobile .image:hover,
+.seo .image:hover {
+  border-radius: 50%;
+  background-color: #eb5424;
+}
+.design .image:hover,
+.media .image:hover {
+  border-radius: 50%;
+  background-color: #303030;
+}
+
+@media screen and (max-width: 767px) {
+  .mobile,
+  .design,
+  .media,
+  .seo {
+    margin: 5px 0;
+  }
+  .service p {
+    max-width: 80%;
+  }
+}

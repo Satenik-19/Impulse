@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(home+nav.css);
+@import url(intro.css);
+@import url(work.css);
+@import url(team.css);
+@import url(portfolio+price.css);
+@import url(contact+map.css);
+@import url(footer.css);
+
+body {
+  background: #f8f8f8;
+  color: #606060;
+  font-family: "Proxima", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Proxima";
+  src: url(../fonts/ProximaNova-Regular.otf);
+}
+@font-face {
+  font-family: "Proxima Bold";
+  src: url(../fonts/ProximaNova-Bold.otf);
+}
